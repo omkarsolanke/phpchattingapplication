@@ -1,0 +1,156 @@
+
+  
+  /* Mobile-specific adjustments */
+@media only screen and (max-width: 600px) {
+    /* Chat container */
+    #wrapper {
+      width: 96%;
+      height: 100%;
+      margin: 0 auto;
+      padding: 10px;
+      background: #F5F5F5;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #CCC;
+    }
+    
+    /* Chat header */
+    #menu {
+        padding: 5px;
+        font-size: 1em;
+    }
+    
+    /* Chatbox */
+    #chatbox {
+        height: 70%;
+        font-size: 0.8em;
+    }
+    
+    /* Message input and send button */
+    .rowwws {
+        flex-wrap: wrap;
+    }
+    
+    /* Message input */
+    .rowwws .collect {
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #CCC;
+    }
+    
+    /* Send button */
+    .rowwws .btnnn {
+        width: 100%;
+    }
+}
+
+
+#wrapper {
+  width: 57%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #F5F5F5;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #CCC;
+}
+
+/* Chat header */
+#menu {
+  padding: 10px;
+  background: #2196F3;
+  color: #FFF;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Welcome message */
+#menu p.welcome {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* Logout button */
+#menu p.logout {
+  text-align: right;
+  margin: 0;
+}
+
+/* Chatbox */
+#chatbox {
+  width: 100%;
+  height: 80%;
+  background: #FFF;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-y: scroll;
+}
+
+/* Chat message */
+.msgln {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Left-aligned message */
+.msgln .left-info {
+  text-align: left;
+  float: left;
+  background: #2196F3;
+  color: #FFF;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Right-aligned message */
+.msgln .right-info {
+  text-align: right;
+  float: right;
+  background: #4CAF50;
+  color: #FFF;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Message input and send button */
+.rowwws {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Message input */
+.rowwws .collect {
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+
+/* Send button */
+.rowwws .btnnn {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background: #2196F3;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+button, input, optgroup, select, textarea {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+width: 100%;
+}
+  
+ 
